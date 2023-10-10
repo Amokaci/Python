@@ -1,6 +1,10 @@
-a = input("Lütfen adınızı girin:")
-b = input("Lütfen soyadınız girin:")
-c = input("Telefon numaranızı girin:")
+print("Sisteme Hoşgeldiniz")
 
-print("Adınız:{}\nSoyadınız:{}\nNumaranız:{}".format(a, b, c))
+a = float(input("Lütfen İlk Sayıyı Girin:"))
+b = float(input("Lütfen İkinci Sayıyı Girin:"))
+c = float(input("Lütfen Üçüncü Sayıyı Girin:"))
+
+d = a * b * c
+
+print("Girdiğiniz Sayılar:\nİlk Sayı:{}\nİkinci Sayı:{}\nÜçüncü Sayı:{}\nSonuç:{}".format(a, b, c, d))
 
